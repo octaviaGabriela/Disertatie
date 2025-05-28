@@ -1,0 +1,286 @@
+﻿body {
+    font-family: Arial;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 30px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 25px;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px
+}
+
+h2 {
+    color: #ff7e5f;
+    font-size: 23px;
+    text-align: center;
+}
+
+.select-button {
+    border: 2px solid #ffa500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.select-button:hover {
+    background-color: #ffcc66;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+}
+
+.input-field {
+    margin-top: 3px;
+    padding: 10px;
+    border: 1px solid #e0b089;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.btnCreateComp,
+.btnUpdateCompetitions {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btnCreateComp:hover,
+.btnUpdateCompetitions:hover {
+   background-color: #e66a4f;
+}
+
+.competition-container {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #e6a772;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.competition-table-container {
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.competition-table{
+    width: 100%;
+}
+
+.competition-table th,
+.competition-table td {
+    border: 1px solid #e6a772;
+    padding: 15px;
+    text-align: center;
+}
+
+.competition-table th {
+    background-color: #ffcc99;
+    color: #cc944f;
+    font-size: 15px;
+}
+
+.competition-table tr:hover {
+    background-color: #ffdbb3;
+}
+
+.create-competition-container {
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #ffcc99;
+}
+
+#lblErrorCreateComp,
+#lblErrorComp {
+    color: red;
+}
+
+.user-id-label {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.ticketContainer {
+    border-radius: 8px;
+    border: 2px solid #e6a772;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #aaa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.ticketBox {
+    border-radius: 8px;
+    border: 4px double #e6a772;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #735f49;
+    font-size: 20px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.tichetD {
+    color: #8a775b;
+    font-size: 16px;
+}
+
+.btnC {
+    background-color: #8ed1a5;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 35px;
+    align-self: flex-end;
+}
+
+.btnC:hover {
+    background-color: #e66a4f;
+}
+
+.btnP {
+    background-color: #8ed1a5;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.btnP:hover {
+    background-color: #6bbf89;
+}
+
+
+
+
+@media print {
+
+    body * {
+        visibility: hidden;
+    }
+
+    .ticketContainer, .ticketContainer * {
+        visibility: visible;
+    }
+
+    .ticketContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        box-shadow: none;
+        margin: 0 auto;
+        border: none;
+    }
+
+    .ticketBox {
+        border-radius: 8px;
+        border: 4px double #e6a772;
+        padding: 20px;
+        text-align: center;
+        margin: 0 50px;
+        max-width: 600px;
+    }
+
+    h3 {
+        color: #735f49;
+        font-size: 20px;
+    }
+
+    .logo {
+        max-height: 60px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .tichetD {
+        color: #8a775b;
+        font-size: 16px;
+    }
+
+    .btnC, .btnP {
+        display: none;
+    }
+}
+
+
+
+
+
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.action-button {
+    width: 400px;
+    padding: 12px 20px;
+    background-color: #6EC1E4;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.action-button:hover {
+    background-color: #3BA9D5;
+}
+
+
+
+
+
+
+
+
+

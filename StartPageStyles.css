@@ -1,0 +1,94 @@
+﻿body {
+    font-family: Arial;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /*0 - spatiu sus jos, auto - automat marginea stanga si dreapta in mod egal, astfel incat elementul sa fie centrat pe orizontala in containerul sau (funct doar dc am width)*/
+    text-align: center;
+}
+
+header {
+    padding: 80px;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ff6600;
+}
+
+.subtitle {
+    font-size: 19px;
+    color: #555;
+}
+
+.join-compete-donate {
+    background: #ffcc99;
+    padding: 30px; /*spatiu interior in jurul continutului*/
+    border-radius: 15px;
+    margin-top: 20px; /*spatiul de sus intre elementul curent si cel de deasupra*/
+}
+
+.btn-1, .btn-2 {
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.btn-1 {
+    background-color: #ff6600;
+}
+
+.btn-2 {
+    background-color: #ff9933;
+}
+
+.btn-1:hover, .btn-2:hover {
+    background-color: #e65c00;
+}
+
+.info, .impact, .how-it-works, .did-you-know {
+    margin-top: 30px;
+    padding: 20px;
+    background: #e6a772;
+    border-radius: 10px;
+}
+
+.how-it-works ul {
+    text-align: left;
+    display: inline-block;
+}
+
+.impact-box3 {
+    width: 80%;
+    background: #ffdb99;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex; /*aliniere box-uri pe orizontala*/
+    gap: 20px; /*spatiu dintre box-uri*/
+}
+
+.impact-box {
+    width: 30%;
+    background: #d7d0ca;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ff6600;
+    color: white;
+    border-radius: 10px;
+}
